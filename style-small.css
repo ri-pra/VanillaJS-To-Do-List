@@ -1,0 +1,96 @@
+
+
+.nav{
+    background-color:rgb(231, 232, 232);
+    width:500px;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    transition: 0.4s;
+    overflow: hidden;
+    padding:30px;
+   
+}
+
+.nav__toggler{
+    color:black;
+    float:right;
+    position:fixed;
+    top:30px;
+    left:450px;
+    transition: inherit;
+}
+
+.nav__toggler__icon{
+    width:40px;
+
+}
+
+
+.profile-details{
+    margin-top:100px;
+    display:flex;
+  
+
+}
+.profile-details__icon{
+    width:135px;
+    height:130px;
+    flex:5;
+   
+    
+
+}
+
+.profile-details__icon__image{
+    width:100%;
+    height:100%;
+    border:0 solid red;
+    border-radius:100%;
+}
+
+.profilt-details__details{
+    flex:12;
+    padding-left:20px;
+
+}
+
+.profile-details__name{
+    font-size:45px;
+    font-weight:800;
+  
+}
+
+.profile-details__email{
+    margin-top:20px;
+    font-size:30px;
+}
+
+.nav__menu{
+ margin-top:70px;   
+ font-size:40px;
+
+}
+
+.nav__menu__item{
+    padding:20px;
+    display:flex;
+    align-items: center;
+    font-weight:500;
+    width:100%;
+}
+
+.font-icon{
+    width:75px;
+    height:55px;
+    padding-right:20px
+}
+
+.dropdown-icon{
+
+    float:right;
+    width:40px;
+    position:absolute;
+    right:50px;
+}

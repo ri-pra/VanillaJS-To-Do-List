@@ -1,0 +1,14 @@
+@import "style-small.css";
+@import "style-large.css";
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/2980499.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat
+    ;
+}
