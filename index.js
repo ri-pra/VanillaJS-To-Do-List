@@ -7,9 +7,9 @@ function toggleNav() {
     nav.style.padding = "0";
     nav_toggler.style.left = "20px";
   } else {
-    nav.style.width = "500px";
+    nav.style.width = "300px";
     nav.style.padding = "20px";
-    nav_toggler.style.left = "450px";
+    nav_toggler.style.left = "250px";
   }
   nav_open = !nav_open;
 }

@@ -1,15 +1,20 @@
 
-
+body{
+    background-image: url("https://wallpaperaccess.com/full/2980499.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat
+    ;
+}
 .nav{
     background-color:rgb(231, 232, 232);
-    width:500px;
+    width:300px;
     height:100%;
     position:fixed;
     top:0;
     left:0;
     transition: 0.4s;
     overflow: hidden;
-    padding:30px;
+    padding:10px;
    
 }
 
@@ -17,27 +22,27 @@
     color:black;
     float:right;
     position:fixed;
-    top:30px;
-    left:450px;
+    top:10px;
+    left:250px;
     transition: inherit;
 }
 
 .nav__toggler__icon{
-    width:40px;
+    width:30px;
 
 }
 
 
 .profile-details{
-    margin-top:100px;
+    margin-top:40px;
     display:flex;
   
 
 }
 .profile-details__icon{
-    width:135px;
-    height:130px;
-    flex:5;
+    width:75px;
+    height:70px;
+   
    
     
 
@@ -50,31 +55,31 @@
     border-radius:100%;
 }
 
-.profilt-details__details{
-    flex:12;
-    padding-left:20px;
+.profile-details__details{
+   
+    margin-left:10px;
 
 }
 
 .profile-details__name{
-    font-size:45px;
+    font-size:20px;
     font-weight:800;
   
 }
 
 .profile-details__email{
-    margin-top:20px;
-    font-size:30px;
+    margin-top:10px;
+    font-size:18px;
 }
 
 .nav__menu{
- margin-top:70px;   
- font-size:40px;
+ margin-top:40px;   
+ font-size:20px;
 
 }
 
 .nav__menu__item{
-    padding:20px;
+    padding:5px;
     display:flex;
     align-items: center;
     font-weight:500;
@@ -82,9 +87,9 @@
 }
 
 .font-icon{
-    width:75px;
-    height:55px;
-    padding-right:20px
+    width:35px;
+    height:35px;
+    margin-right:20px
 }
 
 .dropdown-icon{
